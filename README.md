@@ -76,16 +76,16 @@ print(0)
 
 <script>
 const img = document.getElementById('img');
-        const btn1 = document.getElementById('btn1');
-        const btn2 = document.getElementById('btn2');
+const btn1 = document.getElementById('btn1');
+const btn2 = document.getElementById('btn2');
 
-        btn1.onclick = function () {
-            img.style.display = 'block';
-        }
+btn1.onclick = function () {
+      img.style.display = 'block';
+}
 
-        btn2.onclick = function () {
-            img.style.display = 'none';
-        }
+btn2.onclick = function () {
+      img.style.display = 'none';
+}
 </script>
 </html>
 ```
