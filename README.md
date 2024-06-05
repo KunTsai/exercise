@@ -199,7 +199,9 @@ Object.keys(fruits).forEach(fruit => {
 for (let i = 1; i <= 9; i++) {
   let line = ''; 
   for (let j = 1; j <= 9; j++) {
-    line += `${i} * ${j} = ${i * j}  `; 
+    const result = `${i * j}`.padStart(2, '0');
+    line += `${i}*${j}=${result} `;
   }
   console.log(line);  
 }
+```
