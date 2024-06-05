@@ -68,25 +68,26 @@ print(0)
 
 <body>
 
-    <img id='img' src="https://fakeimg.pl/150x130" >
+    <img id='img' src="https://fakeimg.pl/150x130">
     <button id='btn1'>顯示圖片</button>
     <button id='btn2'>隱藏圖片</button>
 
 </body>
 
 <script>
-const img = document.getElementById('img');
-const btn1 = document.getElementById('btn1');
-const btn2 = document.getElementById('btn2');
+    const img = document.getElementById('img');
+    const btn1 = document.getElementById('btn1');
+    const btn2 = document.getElementById('btn2');
 
-btn1.onclick = function () {
-      img.style.display = 'block';
-}
+    btn1.onclick = function () {
+        img.style.display = 'block';
+    }
 
-btn2.onclick = function () {
-      img.style.display = 'none';
-}
+    btn2.onclick = function () {
+        img.style.display = 'none';
+    }
 </script>
+
 </html>
 ```
 
